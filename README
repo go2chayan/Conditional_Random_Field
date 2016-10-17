@@ -1,0 +1,19 @@
+README
+======
+*NOTE: THIS IS UNFINISHED*
+
+This is an unfinished homework for the Statistical Speech and Language Processing course taught by 
+Prof Daniel Gildea (https://www.cs.rochester.edu/~gildea/) in Fall 2015. Here I implemented attempted
+to implement a CRF (Conditional Random Field) based POS tagger.
+==========================================================================================================
+
+I've only implemented the forward-backward. I'm seriously confused about how to calculate the expected features from the alpha and beta. I have read the following (#1 point in discussion) materials but I couldn't get it. I didn't find any derivation of the equation of expected feature.
+
+Discussion/References:
+======================
+1. I've read the first 15 page of the document "An Introduction to Conditional Random Fields for Relational Learning" by Charles Sutton. It was helpful but still I couldn't understand how to calculate p(y_{t-1},y_t|\mathbf{X}). I tried to read the assigned paper. It didn't make much sense either.
+
+2. I have used several methods for debuging purpose only. One of them uses weights given in HW1. But these are not used in the actual implementation.
+
+
+
